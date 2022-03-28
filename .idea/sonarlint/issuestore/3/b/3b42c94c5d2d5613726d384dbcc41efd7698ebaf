@@ -1,0 +1,17 @@
+
+x	java:S116Q"^Rename this field "MILLISECONDS_PER_PX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦÷¹ðúÿÿÿÿ
+–
+java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ºŠñ=
+I
+java:S1659U".Declare "mInterimTargetDy" on a separate line.(‘µùÇýÿÿÿÿ
+<
+java:S1110|"!Remove these useless parentheses.(é¢¡Áûÿÿÿÿ
+`
+java:S3358Ç"DExtract this nested ternary operation into an independent statement.(æ©þ…ûÿÿÿÿ
+[
+java:S3358Õ"DExtract this nested ternary operation into an independent statement.(Ëã¢
+Q
+java:S1161Ö":Add the "@Override" annotation above this method signature(ÕË²‚
+]
+java:S2184j"BCast one of the operands of this addition operation to a "double".(Ø¥àÚøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­°‚à

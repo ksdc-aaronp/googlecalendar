@@ -45,32 +45,24 @@ public class GooglecalenderView extends LinearLayout {
         super(context);
         LayoutInflater.from(context).inflate(R.layout.viewpagerlay, this);
         this.context = context;
-
-
     }
 
     public GooglecalenderView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         LayoutInflater.from(context).inflate(R.layout.viewpagerlay, this);
         this.context = context;
-
-
     }
 
     public GooglecalenderView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         LayoutInflater.from(context).inflate(R.layout.viewpagerlay, this);
         this.context = context;
-
-
     }
 
     public GooglecalenderView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         LayoutInflater.from(context).inflate(R.layout.viewpagerlay, this);
         this.context = context;
-
-
     }
 
     public void setMonthChangeListner(MonthChangeListner monthChangeListner) {
@@ -94,7 +86,6 @@ public class GooglecalenderView extends LinearLayout {
         currentmonth = calculateCurrentMonth(currentmonthda);
         if (viewPager.getCurrentItem() != currentmonth) {
             viewPager.setCurrentItem(currentmonth, false);
-            //  viewPager.getAdapter().notifyDataSetChanged();
         }
         updategrid();
     }
@@ -104,7 +95,6 @@ public class GooglecalenderView extends LinearLayout {
         currentmonth = position;
         if (viewPager.getCurrentItem() != currentmonth) {
             viewPager.setCurrentItem(currentmonth, false);
-            //  viewPager.getAdapter().notifyDataSetChanged();
         }
     }
 
@@ -182,7 +172,6 @@ public class GooglecalenderView extends LinearLayout {
                     } else {
                         eventhash.put(startday.toLocalDate(), eventuser.get(startday.toLocalDate()));
                     }
-                    // dayModel.setEvents(eventuser.get(startday.toLocalDate()));
                     dayModel.setEventlist(true);
 
                 }
@@ -200,11 +189,8 @@ public class GooglecalenderView extends LinearLayout {
 
                     String s[] = {"start"};
                     eventInfo1.eventtitles=s;
-//                  if (eventhash.containsKey(startday.dayOfWeek().withMinimumValue().toLocalDate())&&eventhash.get(startday.dayOfWeek().withMinimumValue().toLocalDate())[0].contains("tojigs")){
-//                     Log.e("remove",startday.dayOfWeek().withMinimumValue().toLocalDate()+"->"+Arrays.asList(eventhash.get(startday.dayOfWeek().withMinimumValue().toLocalDate())));
-//                    eventhash.remove(startday.dayOfWeek().withMinimumValue().toLocalDate());
 
-//                  }
+
                     if (eventhash.containsKey(startday.toLocalDate())) {
                         EventInfo eventInfo=eventhash.get(startday.toLocalDate());
                         List<String> list = Arrays.asList(eventInfo.eventtitles);
@@ -216,15 +202,8 @@ public class GooglecalenderView extends LinearLayout {
                         eventInfo1=eventInfo;
 
                     }
-
                     eventhash.put(startday.toLocalDate(), eventInfo1);
                 }
-//              if (j==month.getNoofday()&&i!=months){
-//                  Log.e("endcount",startday.toLocalDate().toString());
-//                  Log.e("end",eventhash.containsKey(startday.toLocalDate())+"");
-//                  String s[]={"end"};
-//                  eventhash.put(startday.toLocalDate(),s);
-//              }
                 startday = startday.plusDays(1);
 
             }
@@ -234,22 +213,9 @@ public class GooglecalenderView extends LinearLayout {
 
         }
 
-
         final MonthPagerAdapter myPagerAdapter = new MonthPagerAdapter(context, arrayList);
 
         viewPager.setAdapter(myPagerAdapter);
-//       viewPager.addOnAttachStateChangeListener(new OnAttachStateChangeListener() {
-//           @Override
-//           public void onViewAttachedToWindow(View view) {
-//               viewPager.setCurrentItem(currentmonth);
-//
-//           }
-//
-//           @Override
-//           public void onViewDetachedFromWindow(View view) {
-//
-//           }
-//       });
         viewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
             public void onPageSelected(int position) {
@@ -266,8 +232,6 @@ public class GooglecalenderView extends LinearLayout {
                     }
 
                     updategrid();
-                    //     myPagerAdapter.getFirstFragments().get(position).updategrid();
-                    // myPagerAdapter.notifyDataSetChanged();
 
                     if (monthChangeListner != null)
                         monthChangeListner.onmonthChange(myPagerAdapter.monthModels.get(position));
@@ -275,36 +239,7 @@ public class GooglecalenderView extends LinearLayout {
 
             }
         });
-//        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-//            @Override
-//            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-//
-//            }
-//
-//            @Override
-//            public void onPageSelected(int position) {
-//                MainActivity mainActivity= (MainActivity) context;
-//                currentmonth=position;
-//                if (!mainActivity.isAppBarClosed()){
-//                    Log.e("onPageSelected","Googlecalendaraview");
-//                    adjustheight();
-//                    EventBus.getDefault().post(new MessageEvent(new LocalDate(myPagerAdapter.monthModels.get(position).getYear(),myPagerAdapter.monthModels.get(position).getMonth(),1)));
-//                    myPagerAdapter.getFirstFragments().get(position).updategrid();
-//                    if (monthChangeListner!=null)monthChangeListner.onmonthChange(myPagerAdapter.monthModels.get(position));
-//
-//
-//                }
-////                if (myPagerAdapter.getFirstFragments().get(position).isVisible()){
-////                    myPagerAdapter.getFirstFragments().get(position).updategrid(arrayList.get(position).getDayModelArrayList());
-////                }
-//
-//            }
-//
-//            @Override
-//            public void onPageScrollStateChanged(int state) {
-//
-//            }
-//        });
+
         LocalDate todaydate = LocalDate.now();
         if (!eventhash.containsKey(todaydate)) {
 
@@ -379,7 +314,7 @@ public class GooglecalenderView extends LinearLayout {
                             LocalDateTime end=new LocalDateTime(myinfo.endtime, DateTimeZone.forID(myinfo.timezone));
                             String sf=start.toString("a").equals(end.toString("a"))?"":"a";
 
-                            ss=ss+" ("+start.toString("h:mm "+sf+"")+"-"+end.toString("h:mm a")+")";
+                            ss=ss + "\n"+start.toString("h:mm "+sf+"")+"-"+end.toString("h:mm a");
 
                         }
 
@@ -639,28 +574,24 @@ public class GooglecalenderView extends LinearLayout {
                 super(itemView);
                 textView = itemView.findViewById(R.id.textView8);
                 eventview = itemView.findViewById(R.id.eventview);
-                itemView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        if (getAdapterPosition() >= firstday) {
-                            for (DayModel dayModel : dayModels) {
-                                dayModel.setSelected(false);
-                            }
-
-                            MainActivity.lastdate = new LocalDate(year, month, dayModels.get(getAdapterPosition() - firstday).getDay());
-                            MainActivity mainActivity= (MainActivity) context;
-                            if (mainActivity.mNestedView.getVisibility()==VISIBLE)EventBus.getDefault().post(new MessageEvent(new LocalDate(year, month, dayModels.get(getAdapterPosition() - firstday).getDay())));
-                            // dayModels.get(getAdapterPosition()-firstday).setSelected(true);
-                            if (mainActivity.weekviewcontainer.getVisibility()==VISIBLE){
-                                Calendar todaydate=Calendar.getInstance();
-                                todaydate.set(Calendar.DAY_OF_MONTH,MainActivity.lastdate.getDayOfMonth());
-                                todaydate.set(Calendar.MONTH,MainActivity.lastdate.getMonthOfYear()-1);
-                                todaydate.set(Calendar.YEAR,MainActivity.lastdate.getYear());
-                                mainActivity.mWeekView.goToDate(todaydate);
-                            }
-                            notifyDataSetChanged();
+                itemView.setOnClickListener(view -> {
+                    if (getAdapterPosition() >= firstday) {
+                        for (DayModel dayModel : dayModels) {
+                            dayModel.setSelected(false);
                         }
 
+                        MainActivity.lastdate = new LocalDate(year, month, dayModels.get(getAdapterPosition() - firstday).getDay());
+                        MainActivity mainActivity= (MainActivity) context;
+                        if (mainActivity.mNestedView.getVisibility()==VISIBLE)EventBus.getDefault()
+                                .post(new MessageEvent(new LocalDate(year, month, dayModels.get(getAdapterPosition() - firstday).getDay())));
+                        if (mainActivity.weekviewcontainer.getVisibility()==VISIBLE){
+                            Calendar todaydate=Calendar.getInstance();
+                            todaydate.set(Calendar.DAY_OF_MONTH,MainActivity.lastdate.getDayOfMonth());
+                            todaydate.set(Calendar.MONTH,MainActivity.lastdate.getMonthOfYear()-1);
+                            todaydate.set(Calendar.YEAR,MainActivity.lastdate.getYear());
+                            mainActivity.mWeekView.goToDate(todaydate);
+                        }
+                        notifyDataSetChanged();
                     }
                 });
             }

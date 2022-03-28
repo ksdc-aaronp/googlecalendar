@@ -12,6 +12,8 @@ public class EventInfo {
     public String title;
     public String timezone;
     public int eventcolor;
+    public String appointmentType;
+    public boolean complete;
     public EventInfo(String[] eventtitles){
         this.eventtitles=eventtitles;
     }

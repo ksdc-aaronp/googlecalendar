@@ -14,7 +14,7 @@
         android:clickable="true"
         android:fontFamily="@font/googlesans_regular"
         android:orientation="horizontal"
-        android:text="Nothing planned. Tap to Create."
+        android:text="No Appointments"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

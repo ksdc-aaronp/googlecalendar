@@ -13,4 +13,16 @@
     <color name="event_color_02">#f57f68</color>
     <color name="event_color_03">#87d288</color>
     <color name="event_color_04">#009688</color>
+
+
+    <color name="currentFuture">#96bbf7</color>
+    <color name="complete">#a1fc94</color>
+    <color name="complete_dark">#009688</color>
+    <color name="complete_half">#6cff57</color>
+    <color name="complete_full">#20ff00</color>
+    <color name="overdueIncomplete">#f97f7f</color>
+    <color name="expired">#eaeaea</color>
+    <color name="nonCall">#ffc391</color>
+    <color name="diagonalStripe">#d6d6d6</color>
+
 </resources>

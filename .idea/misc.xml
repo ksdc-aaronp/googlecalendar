@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="Android API 28 Platform" project-jdk-type="Android SDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable-sw600dp-hdpi/scrim.xml" value="0.22355212355212356" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.221875" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/appbarstate.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/backselector.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/blackcircle.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/calendar_badged_icon.xml" value="0.221875" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/circle.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/divider.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/eventcircle.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_arrow_down_24dp.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_blocks.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_bottom.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_box.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_close_black_24dp.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_grid.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_launcher_background.xml" value="0.109375" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_layout_with_header_and_footer_areas.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_menu_black_24dp.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_mtrl_chip_checked_circle.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_mtrl_chip_close_circle.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_pixels.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_sentiment_dissatisfied_grey600_36dp.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_sentiment_neutral_grey600_36dp.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_star_border_grey600_24dp.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/ic_star_grey600_24dp.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/itemselector.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/mytestback.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/nav_back.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/progress_ring.xml" value="0.18958333333333333" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/progress_ring_schedule.xml" value="0.20729166666666668" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/quantum_launchscreen_calendar.xml" value="0.2887179487179487" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/drawable/scrim.xml" value="0.15052083333333333" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/activity_main.xml" value="0.16091954022988506" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/drawerheader.xml" value="0.23641304347826086" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/empty.xml" value="0.23641304347826086" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/extraspace.xml" value="0.23641304347826086" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/fraglay.xml" value="0.23641304347826086" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/fragment_month.xml" value="0.23641304347826086" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/gridlay.xml" value="0.23641304347826086" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/headerview.xml" value="0.23641304347826086" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/liitlespace.xml" value="0.23641304347826086" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/monthgriditem.xml" value="0.23641304347826086" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/monthgriditemlspace.xml" value="0.23641304347826086" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/noplanlittlespace.xml" value="0.27708333333333335" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/rangelay.xml" value="0.27708333333333335" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/task_card.xml" value="0.4" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/todayheader.xml" value="0.19114583333333332" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/view_item.xml" value="0.22708333333333333" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/viewitemlessspace.xml" value="0.75" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/viewlast.xml" value="0.22708333333333333" />
+        <entry key="..\:/Work/AndroidStudioProjects/googlecalendar/app/src/main/res/layout/viewpagerlay.xml" value="0.22708333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
 </project>

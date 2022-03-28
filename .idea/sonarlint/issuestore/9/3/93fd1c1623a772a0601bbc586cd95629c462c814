@@ -1,0 +1,72 @@
+
+c
+java:S1659"MDeclare "mHeaderTextPaint" and all following declarations on a separate line.(Äıêè
+^
+java:S1659"HDeclare "daytextsize" and all following declarations on a separate line.(ºßáÍ
+9
+java:S1659"#Declare "downy" on a separate line.(¾”‹É
+F
+java:S1659 "+Declare "eachcellwidth" on a separate line.(ş¤Ö­ÿÿÿÿÿ
+=
+java:S1659*""Declare "year" on a separate line.(Î°†£ÿÿÿÿÿ
+t
+java:S1450"^Remove the "jeventRectPaint" field and declare it as a local variable in the relevant methods.(Äıêè
+t
+java:S1450"^Remove the "jeventtextpaint" field and declare it as a local variable in the relevant methods.(Äıêè
+j
+java:S1450"TRemove the "paint" field and declare it as a local variable in the relevant methods.(Äıêè
+E
+java:S1197"*Move the array designators [] to the type.(¿–Ğæúÿÿÿÿ
+h
+java:S37766"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ôó§è
+L
+java:S2696J"6Make the enclosing method "static" or remove this set.(¾÷ÿğ
+Z
+java:S1854‘">Remove this useless assignment to local variable "heightSize".(…“„ôıÿÿÿÿ
+Z
+java:S1854">Remove this useless assignment to local variable "heightMode".(“âŠêûÿÿÿÿ
+T
+java:S1854"=Remove this useless assignment to local variable "widthMode".(Ã‡‰Ë
+E
+java:S1481".Remove this unused "widthMode" local variable.(Ã‡‰Ë
+K
+java:S1481"/Remove this unused "heightMode" local variable.(“âŠêûÿÿÿÿ
+K
+java:S1481‘"/Remove this unused "heightSize" local variable.(…“„ôıÿÿÿÿ
+G
+java:S1874Ã"0Remove this use of "getColor"; it is deprecated.(”ú®ò
+W	java:S125Æ"<This block of commented-out lines of code should be removed.(¿®À•øÿÿÿÿ
+n
+java:S3776Ê"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(ÕÆ¾ùıÿÿÿÿ
+S
+java:S1854×"<Remove this useless assignment to local variable "begining".(¢¹éš
+U
+java:S1854Õ"9Remove this useless assignment to local variable "point".(Öé¿œøÿÿÿÿ
+F
+java:S1481Õ"*Remove this unused "point" local variable.(Öé¿œøÿÿÿÿ
+D
+java:S1481×"-Remove this unused "begining" local variable.(¢¹éš
+W	java:S125Ú"<This block of commented-out lines of code should be removed.(¾É‰úÿÿÿÿ
+D
+java:S1125ú"(Remove the unnecessary boolean literals.(ø¦«ÿÿÿÿÿ
+G
+java:S1874…"0Remove this use of "getColor"; it is deprecated.(”ú®ò
+L
+java:S1874–"0Remove this use of "getColor"; it is deprecated.(º÷åşÿÿÿÿ
+F
+java:S1068"+Remove this unused "dayfont" private field.(ıÀ×ïÿÿÿÿÿ
+>
+java:S1068$"(Remove this unused "isup" private field.(ëÁş
+
+java:S1319,"iThe type of "dayModels" should be an interface such as "List" rather than the implementation "ArrayList".(¦ÓÚ
+]
+java:S2184Ï"ACast one of the operands of this division operation to a "float".(ã€·èüÿÿÿÿ
+\
+java:S2184Ï"@Cast one of the operands of this integer division to a "double".(ã€·èüÿÿÿÿ
+X
+java:S2184Ğ"ACast one of the operands of this division operation to a "float".(ï®†í
+W
+java:S2184Ğ"@Cast one of the operands of this integer division to a "double".(ï®†í
+[
+java:S2184ñ"DCast one of the operands of this subtraction operation to a "float".(ÄŞã 
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­°‚à

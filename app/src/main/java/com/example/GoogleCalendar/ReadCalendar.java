@@ -7,6 +7,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.provider.CalendarContract;
 import android.text.format.DateUtils;
+import android.util.Log;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -34,7 +35,7 @@ public class ReadCalendar {
 
                     String _id = cursor.getString(0);
 
-                    System.out.println("Id: " + _id );
+                    Log.i("Calendar","Id: " + _id );
                     calendarIds.add(_id);
                 }
             }

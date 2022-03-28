@@ -1,0 +1,12 @@
+
+r
+java:S1450"WRemove the "mCanDrag" field and declare it as a local variable in the relevant methods.(§ƒäÏùÿÿÿÿ
+S
+java:S1068"=Remove this unused "TOP_CHILD_FLING_THRESHOLD" private field.(Ÿ ¸ª
+G
+java:S1068",Remove this unused "mCanDrag" private field.(§ƒäÏùÿÿÿÿ
+C
+java:S1068".Remove this unused "isPositive" private field.(¬ğq
+J
+java:S1066N"/Merge this if statement with the enclosing one.(¦É ªúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­°‚à

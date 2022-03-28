@@ -10,11 +10,11 @@
         <item name="android:windowLightNavigationBar">true</item>
         <item name="android:navigationBarColor">@color/navcolor</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowBackground">@drawable/quantum_launchscreen_calendar</item>
+
         <item name="colorControlActivated">@color/colorAccent</item>
-
-
     </style>
+
+    <!--<item name="android:windowBackground">@drawable/quantum_launchscreen_calendar</item>-->
 
     <style name="NewFontStyle" parent="android:Widget.TextView">
         <item name="android:fontFamily">@font/googlesansmed</item>

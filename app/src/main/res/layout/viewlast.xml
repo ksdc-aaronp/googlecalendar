@@ -4,8 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-
-
     <com.gjiazhe.scrollparallaximageview.ScrollParallaxImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -19,14 +17,19 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="70.5dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="60dp"
+        android:paddingTop="8dp"
         android:fontFamily="@font/googlesans_regular"
         android:text="June 2019"
-        android:textColor="#464646"
+        android:textColor="@android:color/black"
         android:textSize="20sp"
+        android:background="@drawable/scrim"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <!--android:textColor="#464646"-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>

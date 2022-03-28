@@ -1,0 +1,28 @@
+
+„
+java:S1319	"iThe type of "arrayList" should be an interface such as "List" rather than the implementation "ArrayList".(ƒ–ßíøÿÿÿÿ
+
+java:S1319
+"iThe type of "indextracker" should be an interface such as "Map" rather than the implementation "HashMap".(ÍÙš¿
+†
+java:S1319"kThe type of "monthModels" should be an interface such as "List" rather than the implementation "ArrayList".(õþ¶Ãùÿÿÿÿ
+„
+java:S1319"iThe type of "arrayList" should be an interface such as "List" rather than the implementation "ArrayList".(ð½²ïúÿÿÿÿ
+„
+java:S1319"iThe type of "indextracker" should be an interface such as "Map" rather than the implementation "HashMap".(ð½²ïúÿÿÿÿ
+†
+java:S1319"kThe type of "monthModels" should be an interface such as "List" rather than the implementation "ArrayList".(ð½²ïúÿÿÿÿ
+‹
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÒŽÆ¼ùÿÿÿÿ
+…
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¿Ç›>
+ƒ
+java:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Ñ¦×´
+p
+java:S1104	"UMake arrayList a static final constant or non-public and provide accessors if needed.(ƒ–ßíøÿÿÿÿ
+n
+java:S1104
+"XMake indextracker a static final constant or non-public and provide accessors if needed.(ÍÙš¿
+r
+java:S1104"WMake monthModels a static final constant or non-public and provide accessors if needed.(õþ¶Ãùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­°‚à

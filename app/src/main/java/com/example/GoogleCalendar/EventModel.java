@@ -1,17 +1,15 @@
 package com.example.GoogleCalendar;
 
-import android.graphics.Color;
-
 import org.joda.time.LocalDate;
 
 import androidx.annotation.NonNull;
-import androidx.core.content.res.ResourcesCompat;
 
 public class EventModel implements Comparable<EventModel> {
     private String eventname;
     private LocalDate localDate;
-    private int type;
+    private final int type;
     private int color;
+    private String appointmentType;
 
     public void setColor(int color) {
         this.color = color;
@@ -21,14 +19,14 @@ public class EventModel implements Comparable<EventModel> {
         this.eventname = eventname;
         this.localDate = localDate;
         this.type = type;
-        //this.color= Color.parseColor("#009688");
-
     }
-    public EventModel(int color,String eventname, LocalDate localDate, int type) {
-        this.eventname = eventname;
-        this.localDate = localDate;
-        this.type = type;
-        this.color=color;
+
+    public String getAppointmentType() {
+        return appointmentType;
+    }
+
+    public void setAppointmentType(String appointmentType) {
+        this.appointmentType = appointmentType;
     }
 
     public int getColor() {

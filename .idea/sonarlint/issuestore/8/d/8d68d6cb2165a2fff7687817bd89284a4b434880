@@ -1,0 +1,66 @@
+
+F
+java:S1659"+Declare "eachcellwidth" on a separate line.(þ¤Ö­ÿÿÿÿÿ
+c
+java:S1659""MDeclare "mHeaderTextPaint" and all following declarations on a separate line.(Äýêè
+^
+java:S1659$"HDeclare "daytextsize" and all following declarations on a separate line.(ºßáÍ
+9
+java:S1659&"#Declare "downy" on a separate line.(¾”‹É
+L
+java:S1659-"1Declare "jeventtextpaintRect" on a separate line.(çº€õøÿÿÿÿ
+E
+java:S1197'"*Move the array designators [] to the type.(¿–Ðæúÿÿÿÿ
+h
+java:S3776š"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(ý‚Ï#
+W	java:S125‘"<This block of commented-out lines of code should be removed.(§êÅžüÿÿÿÿ
+B
+java:S1905»"&Remove this unnecessary cast to "int".(œòÃ¨úÿÿÿÿ
+B
+java:S1905¼"&Remove this unnecessary cast to "int".(äÃÓ³ýÿÿÿÿ
+B
+java:S1905½"&Remove this unnecessary cast to "int".(­Ú»Âúÿÿÿÿ
+B
+java:S1905¾"&Remove this unnecessary cast to "int".(”†Éªüÿÿÿÿ
+B
+java:S1905ó"&Remove this unnecessary cast to "int".(œòÃ¨úÿÿÿÿ
+B
+java:S1905ô"&Remove this unnecessary cast to "int".(äÃÓ³ýÿÿÿÿ
+B
+java:S1905õ"&Remove this unnecessary cast to "int".(­Ú»Âúÿÿÿÿ
+B
+java:S1905ö"&Remove this unnecessary cast to "int".(”†Éªüÿÿÿÿ
+G
+java:S1874Þ"0Remove this use of "getColor"; it is deprecated.(”ú®ò
+W	java:S125á"<This block of commented-out lines of code should be removed.(¿®À•øÿÿÿÿ
+n
+java:S3776å"RRefactor this method to reduce its Cognitive Complexity from 93 to the 15 allowed.(ÕÆ¾ùýÿÿÿÿ
+L
+java:S1874‡"0Remove this use of "getColor"; it is deprecated.(Ý¾´Óúÿÿÿÿ
+R	java:S125¯"<This block of commented-out lines of code should be removed.(ÿüÔ±
+W	java:S125°"<This block of commented-out lines of code should be removed.(Ÿ÷‘Áüÿÿÿÿ
+R	java:S125É"<This block of commented-out lines of code should be removed.(ÿüÔ±
+W	java:S125Ê"<This block of commented-out lines of code should be removed.(Ÿ÷‘Áüÿÿÿÿ
+W	java:S125ó"<This block of commented-out lines of code should be removed.(¢¶Á“ûÿÿÿÿ
+R	java:S125ô"<This block of commented-out lines of code should be removed.(É—¢Ï
+F
+java:S1068#"+Remove this unused "dayfont" private field.(ýÀ×ïÿÿÿÿÿ
+C
+java:S1068/"-Remove this unused "mDetector" private field.(ƒï™ª
+
+java:S13198"iThe type of "dayModels" should be an interface such as "List" rather than the implementation "ArrayList".(Í€«
+D
+java:S1604À"(Make this anonymous inner class a lambda(‘×Âêûÿÿÿÿ
+D
+java:S1604ø"(Make this anonymous inner class a lambda(‘×Âêûÿÿÿÿ
+X
+java:S2184ç"ACast one of the operands of this division operation to a "float".(„à›ù
+W
+java:S2184ç"@Cast one of the operands of this integer division to a "double".(„à›ù
+X
+java:S2184è"ACast one of the operands of this division operation to a "float".(ï®†í
+W
+java:S2184è"@Cast one of the operands of this integer division to a "double".(ï®†í
+X
+java:S2184‰"ACast one of the operands of this addition operation to a "float".(¨­©µ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­°‚à

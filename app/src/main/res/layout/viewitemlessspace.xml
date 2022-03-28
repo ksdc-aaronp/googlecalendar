@@ -6,20 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <TextView xmlns:tools="http://schemas.android.com/tools"
+    <TextView
         android:id="@+id/view_item_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="70dp"
         android:layout_marginTop="9dp"
-
         android:layout_marginEnd="16dp"
         android:background="@drawable/white_touch"
         android:clickable="true"
         android:fontFamily="@font/googlesansmed"
         android:orientation="horizontal"
         android:padding="9dp"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +26,33 @@
         tools:context=".MainActivity"
         tools:text="Aardvark" />
 
-    <View
+    <ProgressBar
+        android:id="@+id/task_progressbar_schedule"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:paddingTop="9dp"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/progress_ring_schedule"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:progress="50"/>
+
+    <TextView
+        android:id="@+id/progress_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:paddingTop="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/task_progressbar_schedule"
+        app:layout_constraintEnd_toEndOf="@+id/task_progressbar_schedule"
+        app:layout_constraintStart_toStartOf="@+id/task_progressbar_schedule"
+        app:layout_constraintTop_toTopOf="@+id/task_progressbar_schedule"
+        android:text="4/10"/>
+
+    <!--<View
         android:id="@+id/circle"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -54,7 +79,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/circle"
 
-        />
+        />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

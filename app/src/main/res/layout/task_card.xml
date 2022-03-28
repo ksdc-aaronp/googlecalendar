@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="4dp"
+    android:clickable="true"
+    tools:keep="@layout/card_article_with_image"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            card_view:layout_constraintGuide_end="110dp"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            card_view:layout_constraintGuide_end="4dp"/>
+
+        <TextView
+            android:id="@+id/task_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintBottom_toTopOf="@id/task_principal"
+            card_view:layout_constraintEnd_toEndOf="@id/guideline1"
+            card_view:layout_constraintStart_toStartOf="parent"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/task_principal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="8dp"
+            card_view:layout_constraintTop_toBottomOf="@id/task_name"
+            card_view:layout_constraintBottom_toBottomOf="@id/task_status"
+            card_view:layout_constraintEnd_toEndOf="@id/guideline1"
+            card_view:layout_constraintStart_toStartOf="parent"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/task_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="8dp"
+            card_view:layout_constraintTop_toBottomOf="@id/task_principal"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="@id/guideline1"
+            card_view:layout_constraintStart_toStartOf="parent"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <!--android:textColor="@android:color/primary_text_light"-->
+
+        <ImageView
+            android:id="@+id/task_image"
+            android:src="@drawable/bkg_01_jan"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toEndOf="@id/guideline1"
+            card_view:layout_constraintEnd_toStartOf="@id/guideline2"
+            android:adjustViewBounds="true"
+            android:contentDescription="Task Image" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

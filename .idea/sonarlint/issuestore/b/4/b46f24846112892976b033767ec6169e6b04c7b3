@@ -1,0 +1,13 @@
+
+T
+java:S1854–"=Remove this useless assignment to local variable "leftItems".(Ÿé§«
+w
+java:S3923¡"[Remove this conditional structure or edit its code blocks so that they're not all the same.(“ÁÿÞûÿÿÿÿ
+T
+java:S1854¼">Remove this useless assignment to local variable "childCount".(¯Ç…b
+E
+java:S1481¼"/Remove this unused "childCount" local variable.(¯Ç…b
+W	java:S125É"<This block of commented-out lines of code should be removed.(ˆ–—‡úÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªæïò
+[
+java:S2259L"FA "NullPointerException" could be thrown; "mDivider" is nullable here.(«ì—;
